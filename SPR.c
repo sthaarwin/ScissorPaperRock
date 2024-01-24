@@ -2,6 +2,10 @@
 #include<conio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<cstdlib>
+void loser(){
+    system("halt");
+}
 void banner(){
     printf("____________________________________");
     printf("\n           SPR                   \n"); 
@@ -70,11 +74,13 @@ void check(int user, int computer){
             }
             if(computer == 2){
                 printf("\n Result : You lose!!");
+                loser();
             }
             break;
         case 2:
             if(computer == 0){
                 printf("\n Result : you lose!!");
+                loser();
             }
             if(computer == 1){
                 printf("\n Result : Draw!!");
@@ -89,6 +95,7 @@ void check(int user, int computer){
             }
             if(computer == 1){
                 printf("\n Result : You lose!!");
+                loser();
             }
             if(computer == 2){
                 printf("\n Result :Draw!!");
