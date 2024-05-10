@@ -1,8 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 #include<stdlib.h>
 #include<time.h>
-#include<cstdlib>
+#include<stdlib.h>
 void loser(){
     system("halt");
 }
