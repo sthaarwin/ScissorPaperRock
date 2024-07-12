@@ -4,7 +4,7 @@
 
 #ifdef _WIN32 
 #define CLEAR_COMMAND "cls"
-#define SHUT "shutdown -s"
+#define SHUT "shutdown -s now"
 #else
 #define CLEAR_COMMAND "clear"
 #define SHUT "halt"
